@@ -1,0 +1,63 @@
+body{
+    max-width: 1240px;
+    margin: 0 auto;
+    background-color: blanchedalmond;
+
+}
+
+.brand{
+    background-color: rgb(38, 36, 32);
+    color: white;
+    padding: 20px;
+}
+
+header div{
+    text-align: center;
+}
+
+header h1,p{
+    display: inline;
+}
+
+header .logo{
+    width: 600px;
+    margin: 0 auto;
+}
+
+/* nav design */
+
+nav{
+    background-color: rgb(52, 41, 41);
+}
+
+nav ul{
+    width: 35%;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+ul li{
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/* article design */
+
+main article{
+    background-color: rgb(220, 208, 187);
+    padding: 40px;
+}
+
+.section{
+    border-left: 5px solid tomato;
+    background-color: blanchedalmond;
+    padding: 20px;
+    margin: 20px 0;
+}

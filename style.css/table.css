@@ -1,0 +1,35 @@
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  border: 1px solid rgb(30, 29, 29);
+  border-radius: 10px;
+  overflow: hidden; /* Clips the inner corners cleanly */
+  box-shadow: 0 0 10px 5px black;
+}
+
+table caption {
+  border: 1px solid rgb(30, 29, 29);
+  border-bottom: none;
+  border-radius: 10px 10px 0 0; /* Rounds only top corners if you keep caption attached */
+  padding: 8px;
+}
+
+th, td {
+  border-bottom: 1px solid rgb(30, 29, 29);
+  border-right: 1px solid rgb(30, 29, 29);
+  padding: 10px 20px;
+}
+
+/* Remove extra right border on the last column */
+th:last-child, td:last-child {
+  border-right: none;
+}
+
+/* Remove extra bottom border on the last row */
+tfoot tr:last-child td {
+  border-bottom: none;
+}
+
+tfoot tr td {
+  text-align: center;
+}
